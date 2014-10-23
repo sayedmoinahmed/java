@@ -3,5 +3,7 @@ public class Main {
 		System.out.println("--------------------");
 		System.out.println("Hello Sayed");
 		System.out.println("--------------------");
+		Car car = new BMW();
+		car.print();
 	}
 }
