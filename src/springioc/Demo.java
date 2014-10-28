@@ -9,6 +9,7 @@ package springioc;
  */
 public class Demo {
 	private String name;
+	private ReferenceClass referenceClass;
 
 	public String getName() {
 		return name;
@@ -18,9 +19,18 @@ public class Demo {
 		this.name = name;
 	}
 
+	public ReferenceClass getReferenceClass() {
+		return referenceClass;
+	}
+
+	public void setReferenceClass(ReferenceClass referenceClass) {
+		this.referenceClass = referenceClass;
+	}
+
 	@Override
 	public String toString() {
-		return "Demo [name=" + name + "]";
+		return "Demo [name=" + name + ", referenceClass=" + referenceClass
+				+ "]";
 	}
 
 }
